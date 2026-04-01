@@ -1,4 +1,4 @@
-import { prisma } from "./lib/prisma.js";
+import { prisma } from "./src/lib/prisma.js";
 
 async function main() {
   // Example: Fetch all records from a table
