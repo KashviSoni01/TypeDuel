@@ -14,7 +14,11 @@
 
     "strict": true,
     "esModuleInterop": true,
-    "skipLibCheck": true
+    "skipLibCheck": true,
+    "baseUrl": ".",
+    "paths": {
+      "@prisma/client": ["./generated/prisma/index.js"]
+    }
   },
   "include": ["src", "script.ts"]
 }
